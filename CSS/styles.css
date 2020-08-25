@@ -1,0 +1,280 @@
+/*************main page***********/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #16213e;
+  font-size: 70px;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #16213e;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #16213e;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+a {
+  color: #0f3460;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+}
+
+.profile {
+  background-color: #93b5e1;
+  border-radius: 50%;
+}
+
+.copyright {
+  color: #0f3460;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.bio {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  padding-bottom: 10px;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 50px auto 100px;
+}
+
+.contact-msg {
+  line-height: 2;
+  padding-bottom: 40px;
+}
+
+.btn {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.top-container {
+  background-color: #93b5e1;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 50px 0;
+  background-color: #93b5e1;
+}
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.ent {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.title {
+  font-weight: normal;
+}
+
+.cinema {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+
+.tv {
+  margin-left: 30px;
+  width: 25%;
+  float: right;
+}
+
+.ent-tech {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+
+.reviews {
+  width: 50%;
+  margin: 20px auto 20px auto;
+}
+
+/******articles.html**********/
+
+.myarticles {
+background-color: #93b5e1;
+text-align: center;
+}
+
+.arttitle {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.horrorArtIcon {
+  width: 538px;
+  height: 268px;
+  margin: 25px auto 15px auto;
+}
+
+.steamArtIcon {
+  width: 538px;
+  height: 268px;
+  margin: 25px auto 15px auto;
+}
+
+.articleOption {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #3c2946;
+  padding-bottom: 20px;
+  line-height: 1.6;
+}
+
+.articleOption:hover {
+  color: #8675a9;
+}
+
+.type {
+  margin: 5px auto 0 auto;
+}
+
+.artInfo {
+  margin: 30px auto 30px auto;
+}
+
+/*********article1.html**********/
+
+figure {
+  text-align: center;
+  font-size: smaller;
+  font-style: italic;
+  text-indent: 0;
+}
+
+.articleOne {
+  background-color: #93b5e1;
+  text-align: center;
+}
+
+.artOneTitle {
+  font-size: 35px;
+  line-height: 1.3;
+  width: 75%;
+}
+
+.artOneBody {
+  width: 75%;
+  margin: 50px auto 20px auto;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.artPics {
+  text-align: center;
+  font-size: smaller;
+  font-style: italic;
+  text-indent: 0;
+}
+
+.scaryMoviePic {
+  width: 375px;
+  height: 275px;
+  margin: 25px auto 0 auto;
+}
+
+.midPic {
+  margin: 25px auto 0 auto;
+}
+
+.usPic {
+  margin: 25px auto 0 auto;
+}
+
+
+
+/**********article2.html************/
+
+.articleTwo {
+  background-color: #93b5e1;
+  text-align: center;
+}
+
+.artTwoTitle {
+  font-size: 35px;
+  line-height: 1.3;
+  width: 75%;
+  margin: 20px auto 20px auto;
+}
+
+.artTwoBody {
+  width: 75%;
+  margin: 50px auto 20px auto;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.steamPic {
+  margin: 25px auto 0 auto;
+}
